@@ -1,0 +1,22 @@
+.venv/
+node_modules/
+__pycache__/
+.env
+.env.*
+!.env.example
+
+# generated media: keep out of git (runs/ archives, renders, audio mixes)
+*.mp4
+*.wav
+video/.hyperframes/
+runs/*/out/
+runs/*/audio/
+assets/paintings/original.jpg
+workspaces/
+avatar/higgsfield_archive/
+
+# 2D Studio kit (second format)
+aitrends-2d-studio/node_modules/
+aitrends-2d-studio/projects/*/build/
+aitrends-2d-studio/projects/*/out/
+aitrends-2d-studio/examples/*/build/
